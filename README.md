@@ -39,11 +39,7 @@ These dependencies include:
 - scipy for correlation analysis.
 
 Setup Instructions
-1.	Clone the repository and navigate to the project directory:
-
-git clone <repository-url>
-cd <repository-directory>
-
+1.	Download the method.py file from the github repository: https://github.com/rbains25/CENLP.git 
 
 2.	Install the required dependencies as outlined above.
 3.	Download the GECO eye-tracking datasets:

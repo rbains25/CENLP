@@ -73,10 +73,13 @@ Adjusting Path Names
 To ensure the scripts work on your system:
 1.	Locate the following lines in method.py:
 
-human_data_l1 = pd.read_excel('/Users/rajivbains/Downloads/L1ReadingData.xlsx', sheet_name='DATA', nrows=500)
-human_data_l2 = pd.read_excel('/Users/rajivbains/Downloads/L2ReadingData.xlsx', sheet_name='DATA', nrows=500)
-model_data_english = pd.read_excel('/Users/rajivbains/Downloads/EnglishMaterial.xlsx', sheet_name='ALL', nrows=500)
-model_data_dutch = pd.read_excel('/Users/rajivbains/Downloads/DutchMaterials.xlsx', sheet_name='ALL', nrows=500)
+human_data_l1 = pd.read_excel('/Users...L1ReadingData.xlsx', sheet_name='DATA', nrows=500)
+
+human_data_l2 = pd.read_excel('/Users...L2ReadingData.xlsx', sheet_name='DATA', nrows=500)
+
+model_data_english = pd.read_excel('/Users...EnglishMaterial.xlsx', sheet_name='ALL', nrows=500)
+
+model_data_dutch = pd.read_excel('/Users...DutchMaterials.xlsx', sheet_name='ALL', nrows=500)
 
 2.	Replace /Users/rajivbains/Downloads/ with the directory where the datasets are stored. For example:
 

@@ -3,13 +3,13 @@ Multilingual BERT and Human Attention Analysis
 This project investigates the alignment between human fixation patterns and model attention scores using DistilBERT for English and Dutch texts. By leveraging the GECO eye-tracking dataset, the study analyses correlations between human fixation metrics and attention mechanisms at word and sentence levels for both native (L1) and non-native (L2) readers.
 
 Table of Contents
-	1.	Project Overview
-	2.	Dependencies
-	3.	Setup Instructions
-	4.	Data Access
-	5.	Running the Scripts
-	6.	Adjusting Path Names
-	7.	Results
+1. Project Overview
+2.	Dependencies
+3.	Setup Instructions
+4.	Data Access
+5.	Running the Scripts
+6.	Adjusting Path Names
+7.	Results
 
 Project Overview
 

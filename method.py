@@ -6,6 +6,14 @@ import seaborn as sns
 from transformers import DistilBertTokenizer, DistilBertModel
 import torch
 
+# Code snippet adapted from:
+# @article{Sanh2019DistilBERTAD,
+  # title={DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter},
+  # author={Victor Sanh and Lysandre Debut and Julien Chaumond and Thomas Wolf},
+  # journal={ArXiv},
+  # year={2019},
+  # volume={abs/1910.01108}
+
 # Initialise tokeniser and model for distil-multiBERT
 model_name = "distilbert-base-multilingual-cased"
 tokenizer = DistilBertTokenizer.from_pretrained(model_name)

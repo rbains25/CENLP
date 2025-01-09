@@ -81,9 +81,9 @@ model_data_english = pd.read_excel('/Users...EnglishMaterial.xlsx', sheet_name='
 
 model_data_dutch = pd.read_excel('/Users...DutchMaterials.xlsx', sheet_name='ALL', nrows=500)
 
-2.	Replace /Users/rajivbains/Downloads/ with the directory where the datasets are stored. For example:
+2.	Replace /Users... with the directory where you have stored the datasets. For example:
 
-human_data_l1 = pd.read_excel('./data/L1ReadingData.xlsx', sheet_name='DATA', nrows=500)
+human_data_l1 = pd.read_excel('/.../L1ReadingData.xlsx', sheet_name='DATA', nrows=500)
 
 3.	Ensure all file paths are adjusted before running the script.
 
